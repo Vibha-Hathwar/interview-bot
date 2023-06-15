@@ -1,0 +1,194 @@
+What is the worst case complexity of binary search?
+O(1).  
+What is Ruperts algorithm? 
+create quality Delaunay triangulations
+What is the worst case performance of selection sort?
+O(n2).
+define degree of a node.
+the number of subtrees of a node is called the degree of a node
+what do you mean by uniform costsearch? 
+a tree search that finds the lowestcost route where costs vary
+What is binary search algorithm ?
+locates an item in a sorted sequence
+Define A Right-skewed Binary Tree?
+a tree which has only right child nodes.
+How do you explain topological sort?
+finds linear order of nodes eg jobs based on their dependencies
+Define Root.
+unique node in the tree to which further sub-trees are attached.
+what do you mean by nth root algorithm ?
+the principal root of a positive real number a is the positive real solution of the equation
+what do you mean by buchbergers algorithm
+finds a grbner basis
+what do you mean by point in polygon algorithms 
+find the nearest point or points to a query point
+Use of algorithms in computer science 
+Functional programming and logic programming 
+define dynamic time wrapping 
+measure similarity between two sequences which may vary in time or speed
+how do you explain longest common subsequence problem
+find the longest subsequence common to all sequences in a set of sequences
+define an acyclic graph
+a simple diagram which does not have any cycles is called an acyclic graph
+what do you mean by string metrics 
+compute a similarity or dissimilarity distance score between two pairs of text strings
+What is CPU Utilization:
+Percentage of time that the CPU is doing useful work (I.e. not being idle). 100% is perfect.
+What Are The Applications Of Priority Queues?											
+The selection problem.Event simulation.							
+define recursive algorithm
+algorithm that invokes or makes reference to itself repeatedly until a certain condition 
+define division algorithms 
+for computing quotient andor remainder of two numbers
+define kirkpatrickseidel algorithm 
+is an algorithm for computing the convex hull of a set of points in the plane
+What are voronoi diagrams
+geometric dual of Delaunay triangulation
+how do you explain best case performance of bubble sort algorithm
+O(n)
+what do you mean by tree sort 
+build binary tree then traverse it to create sorted list
+What is maximal cliques 
+a clique that cannot be extended by including one more adjacent vertex,
+define exhaustive search
+this is the naive method of trying every possible solution to see which is best
+what do you mean by wait time
+time that a process spends for its turn to get executed
+define schreiersims algorithms 
+computing a base and strong generating set bsgs of a permutation group
+how do you explain edmondsedmondskara algorithm
+implementation of fordfulkerson
+how do you explain tarjans strongly connected componets algorithms
+an algorithm in graph theory for finding the strongly connected components of a directed graph
+define pollards kangaroo algorithm 
+an algorithm for solving the discrete logarithm problem
+define the best case efficiency of binary search
+O(1)
+how do you explain toddcoxeter algorithm
+procedure for generating cosets
+Binary searches can be done on an array[Yes/No]?							
+Yes.							
+what do you mean by ftdisk
+it is a fault tolerance disk driver for windows nt
+define a folder in ubuntu
+there is no concept of folder in ubuntu everything included in your hardware is a file
+What is shell sort
+an attempt to improve insertion sort
+What is addition chain exponentiation
+the classic ways to round numbers
+What is bubble sort 
+for each pair of indices, swap the items if out of order
+Name Two Algorithms Two Find Minimum Spanning Tree?							
+Kruskals algorithm.Prims algorithm.							
+define collision detection
+check for the collision or intersection of two given solids
+what do you mean by lexicographic breadth search
+a linear time algorithm for ordering the vertices of a graph
+What is schreier-sims algorithms 
+computing a base and strong generating set (BSGS) of a permutation group
+how do you explain schensted algorithm 
+constructs a pair of young tableaux from a permutation
+What is quantum algorithm 
+The term is usually used for those algorithms which seem inherently quantum,
+what do you mean by rabinkarp string search algorithms 
+amortized linear sublinear in most times algorithm for substring search
+define rabinkarp string search algorithms 
+amortized linear sublinear in most times algorithm for substring search
+define maxcliquedyn maximum clique algorithm 
+the maxcliquedyn algorithm is an algorithm for finding a maximum clique in an undirected graph 
+What is modular square root 
+computing square roots modulo a prime number
+what do you mean by borweins algorithm 
+an algorithm to calculate the value of 1p
+Give some simple example of algorithm 
+to find the largest number in a list of numbers of random order.
+what do you mean by an idle thread
+the special thread a dispatcher will execute when no ready thread is found
+how do you explain average case performance of binary search
+the average case performance of binary search is olog n
+what do you mean by executive in windows nt
+in windows nt executive refers to the operating system code that runs in kernel mode
+what do you mean by buchbergers algorithm
+finds a grbner basis
+What is sequence sorting 
+Sorting the data in a sequence 
+What is the order of growth of the bubble sort algorithm?							
+The bubble sort algorithm has a quadratic order of growth.
+what do you mean by hamming distance 
+sum number of positions which are different
+how do you explain convex hull algorithms 
+determining the convex hull of a set of points
+how do you explain the function of turnaround time
+this is considered to be the time elapsed from when a process is submitted to when it has completed
+how do you explain a critical section
+it is a section of code which can be executed only by one process at a time
+What is push relabel algorithm 
+computes a maximum flow in a graph
+define minimum bounding box algorithm 
+find the oriented minimum bounding box enclosing a set of points
+What is an idle thread?
+The special thread a dispatcher will execute when no ready thread is found.
+how do you explain extended euclidean algorithm 
+also solves the equation ax  by  c
+what do you mean by multiplicative inverse algorithms 
+an approximation of the squareroot of the sum of two squares
+what do you mean by schreiersims algorithms 
+computing a base and strong generating set bsgs of a permutation group
+how do you explain gospers algorithm
+find sums of hypergeometric terms that are themselves hypergeometric terms
+what do you mean by steinhausjohnsontrotter algorithm 
+generate permutations by transposing elements
+how do you explain throughput
+the number of processes completed  time unit
+how do you explain longest increasing subsequence problem
+find the longest increasing subsequence of a given sequence
+What are the states of a process?
+New, Runnin, Waiting,Ready and Terminated.
+define cycle sort 
+inplace with theoretically optimal number of writes
+What Are The Applications Of B-tree?														
+Database implementation.	Indexing on non primary key fields.		
+define merge sorting
+comparisonbased sorting algorithm
+what do you mean by insertion sort 
+determine where the current item belongs in the list of sorted ones and insert it there
+What are residence monitors?
+Early operating systems were called residence monitors.
+What is primality tests
+determining whether a given number is prime
+define spectral layout 
+a class of algorithm for drawing graphs
+define the main use of dynamic programming
+reduces the exponential nature of many problems to polynomial complexity
+What is set division
+compute elementary functions using a table of logarithms
+define page cannibalizing
+page swapping or page replacements are called page cannibalizing
+what do you mean by jump search
+linear search on a smaller subset of the sequence
+how do you explain brents algorithm 
+finds a cycle in function value iterations using only two iterators
+how do you explain primality tests
+determining whether a given number is prime
+What is bitap algorithm 
+fuzzy algorithm that determines if strings are approximately equal.
+how do you explain introsoft 
+begin with quicksort and switch to heapsort when the recursion depth exceeds a certain level
+what do you mean by the minimum number of nodes in an avl tree of height h
+the minimum number of nodes sh in an avl tree of height h is given by shsh1sh21 for h0 sh1
+what do you mean by girvannewman algorithm 
+detect communities in complex systems
+What Are The Different Types Of Cpu Registers In A Typical Operating System Design?
+Accumulators,Index Registers,Stack Pointer and General Purpose Registers
+What is rich salz wildcat 
+a widely used open-source recursive algorithm
+define relative path
+absolute path is exact path from root directory
+what do you mean by the best case performance of selection sort
+the best case performance of selection sort is on2
+What is Brents algorithm 
+finds a cycle in function value iterations using only two iterators
+What are serial problems 
+Some problems have no parallel algorithms and are called inherently serial problems.
+how do you explain the order of growth of the bubble sort algorithm
+the bubble sort algorithm has a quadratic order of growth
