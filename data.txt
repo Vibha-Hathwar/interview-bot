@@ -68,11 +68,11 @@ how do you explain toddcoxeter algorithm
 procedure for generating cosets
 Binary searches can be done on an array[Yes/No]?							
 Yes.							
-what do you mean by ftdisk
+what do you mean by ftdisk ?
 it is a fault tolerance disk driver for windows nt
 define a folder in ubuntu
 there is no concept of folder in ubuntu everything included in your hardware is a file
-What is shell sort
+What is shell sort ?
 an attempt to improve insertion sort
 What is addition chain exponentiation
 the classic ways to round numbers
@@ -89,13 +89,11 @@ computing a base and strong generating set (BSGS) of a permutation group
 how do you explain schensted algorithm 
 constructs a pair of young tableaux from a permutation
 What is quantum algorithm 
-The term is usually used for those algorithms which seem inherently quantum,
+algorithms which seem inherently quantum
 what do you mean by rabinkarp string search algorithms 
 amortized linear sublinear in most times algorithm for substring search
-define rabinkarp string search algorithms 
-amortized linear sublinear in most times algorithm for substring search
 define maxcliquedyn maximum clique algorithm 
-the maxcliquedyn algorithm is an algorithm for finding a maximum clique in an undirected graph 
+an algorithm for finding a maximum clique in an undirected graph 
 What is modular square root 
 computing square roots modulo a prime number
 what do you mean by borweins algorithm 
@@ -105,15 +103,15 @@ to find the largest number in a list of numbers of random order.
 what do you mean by an idle thread
 the special thread a dispatcher will execute when no ready thread is found
 how do you explain average case performance of binary search
-the average case performance of binary search is olog n
+O(log n)
 what do you mean by executive in windows nt
-in windows nt executive refers to the operating system code that runs in kernel mode
+the operating system code that runs in kernel mode
 what do you mean by buchbergers algorithm
 finds a grbner basis
 What is sequence sorting 
 Sorting the data in a sequence 
 What is the order of growth of the bubble sort algorithm?							
-The bubble sort algorithm has a quadratic order of growth.
+quadratic order.
 what do you mean by hamming distance 
 sum number of positions which are different
 how do you explain convex hull algorithms 
@@ -174,21 +172,17 @@ What is bitap algorithm
 fuzzy algorithm that determines if strings are approximately equal.
 how do you explain introsoft 
 begin with quicksort and switch to heapsort when the recursion depth exceeds a certain level
-what do you mean by the minimum number of nodes in an avl tree of height h
-the minimum number of nodes sh in an avl tree of height h is given by shsh1sh21 for h0 sh1
 what do you mean by girvannewman algorithm 
 detect communities in complex systems
 What Are The Different Types Of Cpu Registers In A Typical Operating System Design?
 Accumulators,Index Registers,Stack Pointer and General Purpose Registers
 What is rich salz wildcat 
 a widely used open-source recursive algorithm
-define relative path
+define absolute path
 absolute path is exact path from root directory
 what do you mean by the best case performance of selection sort
-the best case performance of selection sort is on2
+O(n2)
 What is Brents algorithm 
 finds a cycle in function value iterations using only two iterators
 What are serial problems 
 Some problems have no parallel algorithms and are called inherently serial problems.
-how do you explain the order of growth of the bubble sort algorithm
-the bubble sort algorithm has a quadratic order of growth
