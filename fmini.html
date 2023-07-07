@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interview Bot</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      margin-top: 50px;
+      color: #333;
+    }
+
+    #question-container {
+      margin-top: 50px;
+    }
+
+    #question-text {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    #user-answer {
+      margin-top: 10px;
+      padding: 5px;
+      width: 250px;
+      font-size: 16px;
+    }
+
+    #submit-btn {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #result-container {
+      margin-top: 50px;
+      display: none;
+    }
+
+    #score-text {
+      font-size: 24px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Interview Bot</h1>
+  <div id="question-container">
+    <p id="question-text"></p>
+    <input type="text" id="user-answer" placeholder="Your Answer">
+    <br>
+    <button id="submit-btn">Submit</button>
+  </div>
+  <div id="result-container">
+    <p id="score-text"></p>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var questions = [
+        "What is your greatest strength?",
+        "Tell me about a challenging situation you faced and how you overcame it.",
+        // Add more questions here...
+      ];
+      var currentQuestionIndex = 0;
+
+      function displayQuestion(question) {
+        var questionText = document.getElementById("question-text");
+        questionText.textContent = question;
+      }
+
+      function displayScore(score) {
+        var scoreText = document.getElementById("score-text");
+        scoreText.textContent = "Score: " + score;
+      }
+
+      function submitAnswer() {
+        var userAnswerInput = document.getElementById("user-answer");
+        var userAnswer = userAnswerInput.value;
+
+        // Perform answer evaluation and score calculation here
+
+        var score = Math.floor(Math.random() * 100) + 1; // Random score for demonstration
+        displayScore(score);
+
+        currentQuestionIndex++;
+
+        if (currentQuestionIndex < questions.length) {
+          var nextQuestion = questions[currentQuestionIndex];
+          displayQuestion(nextQuestion);
+        } else {
+          var questionContainer = document.getElementById("question-container");
+          questionContainer.style.display = "none";
+
+          var resultContainer = document.getElementById("result-container");
+          resultContainer.style.display = "block";
+        }
+
+        userAnswerInput.value = "";
+      }
+
+      var firstQuestion = questions[0];
+      displayQuestion(firstQuestion);
+
+      var submitBtn = document.getElementById("submit-btn");
+      submitBtn.addEventListener("click", submitAnswer);
+    });
+  </script>
+</body>
+</html>
